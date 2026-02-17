@@ -4,29 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello World!</title>
-
+    <link rel="stylesheet" href="styles.css">
+    
     <!-- #1 Тут нужно подключить styles.css -->
     <!-- Как это сделать посмотрите тут - https://developer.mozilla.org/ru/docs/Web/HTML/Element/link -->
 </head>
 <body>
 <div class="card">
-    <h1 class="card__title">Привет, {username}</h1>
+    <h1 class=".card__title">Привет, {username}</h1>
 
-    <p class="card__text">Тебе нужно:</p>
+    <p class=".card__text">Тебе нужно:</p>
 
-    <ul class="card__list">
-        <li class="card__list-item">
+    <ul class=".card__list">
+        <li class=".card__list-item">
             <label><span>Откыть index.html</span> <input id="html" type="checkbox" value="HTML"></label>
         </li>
-        <li class="card__list-item">
+        <li class=".card__list-item">
             <label>Подключить styles.css <input id="css" type="checkbox" value="CSS"></label>
         </li>
-        <li class="card__list-item">
+        <li class=".card__list-item">
             <label>Подключить index.js <input id="js" type="checkbox" value="JS"></label>
         </li>
     </ul>
 
-    <p id="output" class="card__text"></p>
+    <p id="output" class=".card__text"></p>
 
     <!-- #2 Тут нужно подключить index.js -->
     <!-- Как это сделать посмотрите тут - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script#examples -->
